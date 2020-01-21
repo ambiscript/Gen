@@ -1,0 +1,22 @@
+{
+  "name": "genbot",
+  "version": "1.0.0",
+  "description": "a simple discord bot designed to provide basic server functionality",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Harley Grace"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/ambiscript/Gen",
+  "dependencies": {
+    "better-sqlite3": "^5.4.3",
+    "discord.js": "^11.5.1",
+    "enmap": "^5.2.4",
+    "jimp": "^0.9.3",
+    "sqlite3": "^4.1.1"
+  }
+}
